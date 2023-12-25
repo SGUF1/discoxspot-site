@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: rgb(15, 2, 2);
+}
+
+
+.customShadow {
+  box-shadow: 0 0px 100px 0 rgba(227, 29, 36, 0.7);
+  border-radius: 50%;
+}
+
+.iconShadow {
+  box-shadow: 0 0px 50px 0 rgba(227, 29, 36, 0.7);
+}
+
+.shadow-top {
+  box-shadow: 0 0px 30px 0 rgba(227, 29, 36, 0.7);
+}
