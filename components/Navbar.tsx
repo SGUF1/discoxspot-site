@@ -42,7 +42,7 @@ const Navbar = () => {
       </header>
       {isMenuOpen && (
         <div>
-          <nav className="fixed top-0 right-0 left-0 bottom-0 lg:bottom-auto  bg-red-700  ">
+          <nav className="fixed top-0 right-0 left-0 bottom-0 lg:bottom-auto  bg-red-700 flex space-y-10 flex-col justify-center items-center">
             <div
               className="hidden max-lg:block fixed right-0  px-8 py-4 cursor-pointer"
               onClick={() => {
@@ -51,7 +51,7 @@ const Navbar = () => {
             >
               <AiOutlineClose className="text-4xl text-red-400" />
             </div>
-            <ul className=" lg:hidden flex flex-col items-center justify-center h-full ">
+            <ul className=" lg:hidden flex flex-col items-center justify-center h-full space-y-10">
               {navLinks.map((item) => (
                 <li key={item.label}>
                   <a

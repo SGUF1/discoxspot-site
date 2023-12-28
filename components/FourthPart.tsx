@@ -19,7 +19,7 @@ const FourthPart = () => {
       },
       {
         name: "Info",
-        role: "",
+        role: "Information",
         email: "info@discoxspot.com",
         img: "/sfera2.png",
       },
@@ -27,7 +27,7 @@ const FourthPart = () => {
   return (
     <div id="contacts" className="flex flex-col  mt-10 px-5 space-y-10 lg:mt-20  lg:justify-center text-white lg:space-y-0 lg:px-10">
       <div className="text-3xl lg:text-4xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-red-200 ">
-        Contact Us
+        Contattaci
       </div>
       <div className="flex flex-col lg:flex-row items-center justify-center lg:space-x-10 space-y-12 lg:space-y-0">
         {data.map((item) => (

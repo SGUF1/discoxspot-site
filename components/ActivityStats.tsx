@@ -10,19 +10,19 @@ const ActivityStats = () => {
       <div className="flex space-x-2 items-center">
         <span className="font-bold text-2xl">{activeUsers}+</span>
         <span className=" text-transparent bg-clip-text bg-gradient-to-r to-red-300 text-lg from-red-500 font-bold  ">
-          USER ACTIVE
+          UTENTI ATTIVI
         </span>
       </div>
       <div className="flex space-x-2 items-center">
         <span className="font-bold text-2xl">{discos}+</span>
         <span className=" text-transparent bg-clip-text bg-gradient-to-r to-red-300 text-lg from-red-500 font-bold  ">
-          DISCO
+          DISCOTECHE
         </span>
       </div>
       <div className="flex space-x-2 items-center">
         <span className="font-bold text-2xl">{reservedTables}+</span>
         <span className=" text-transparent bg-clip-text bg-gradient-to-r to-red-300 text-lg from-red-500 font-bold  ">
-          RESERVED TABLES
+          TAVOLI PRENOTATI
         </span>
       </div>
     </div>
